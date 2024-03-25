@@ -1,0 +1,74 @@
+body {
+    background-image: url("images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.signUp {
+    width: 480px;
+    height: 480px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 50%;
+    
+    background: rgba(173, 176, 229, 0.19);
+    box-shadow: 0px 0px 20px 6px #fdb3d8b3;
+    backdrop-filter: blur(6.6px);
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.signUp input {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 8px;
+    font-size: 1.1rem;
+    width: 180px;
+}
+
+.signUp input::placeholder {
+    color: #ADB0E5;
+}
+
+.signUp a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: right;
+}
+
+.signUp a:hvoer {
+    text-decoration: underline;
+}
+
+.signUp .mySubmit {
+    background: #9a83acc6;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    margin: 30px auto 10px;
+    cursor: pointer;
+}
+
+.signUp .mySubmit:hover {
+    transform: scale(1.1);
+}

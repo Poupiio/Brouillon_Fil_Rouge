@@ -1,0 +1,78 @@
+body {
+    background-image: url("images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.signIn {
+    width: 430px;
+    height: 430px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 50%;
+
+    background: rgba(173, 176, 229, 0.19);
+    backdrop-filter: blur(6.6px);
+    box-shadow: 0px 0px 20px 6px rgb(185, 240, 245);
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signIn h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.signIn input {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 8px;
+    font-size: 1.1rem;
+    width: 180px;
+}
+
+.signIn input::placeholder {
+    color: #ADB0E5;
+}
+
+.signIn a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: right;
+}
+
+.signIn a:hover {
+    text-decoration: underline;
+}
+
+.signIn .forgottenPwd {
+    position: relative;
+}
+
+.signIn .mySubmit {
+    background: #9a83acc6;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    margin: 30px auto 10px;
+    cursor: pointer;
+}
+
+.signIn .mySubmit:hover {
+    transform: scale(1.1);
+}

@@ -12,49 +12,40 @@
 
     <header>
         <nav>
-            <img src="images/test2.png" class="main-logo" alt="Logo Trolle">
+            <a href="index.html">
+                <img src="images/test2.png" class="main-logo" alt="Logo Trolle">
+            </a>
             <ul class="main-menu">
                 <li>
-                    <a href="#">Connexion</a>
+                    <a href="signin.html">Connexion</a>
                 </li>
                 <li>
-                    <a href="#">Inscripton</a>
+                    <a href="signup.html">Inscripton</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <form class="signIn">
-        <h1>Connexion</h1>
-        <div class="email">
-            <input type="email" name="email" id="email" placeholder="Email" required>
-        </div>
-        <div class="password">
-            <input type="password" name="password" id="password" placeholder="Mot de passe" required>
-            <a href="#" class="forgottenPwd">Mot de passe oublié ?</a>
-        </div>
-        <div class="submit">
-            <button class="mySubmit">Connexion</button>
-        </div>
-        <a href="#" class="signUpBtn">Pas encore de compte ?</a>
-    </form>
+    <main>
+        <h1>Bienvenue sur Trolle</h1>
+        <h2>Votre plateforme de gestion de projets simplifiée</h2>
 
-    <form class="signUp">
-        <h1>Créer mon compte</h1>
-        <div class="name">
-            <input type="name" name="name" id="name" placeholder="Nom" required>
-        </div>
-        <div class="email">
-            <input type="user-email" name="user-email" id="user-email" placeholder="Email" required>
-        </div>
-        <div class="password">
-            <input type="user-password" name="user-password" id="user-password" placeholder="Mot de passe" required>
-        </div>
-        <div class="submit">
-            <button class="mySubmit">Inscription</button>
-        </div>
-        <a href="#" class="signInBtn">Déjà un compte ?</a>
-    </form>
+        <section id="presentation">
+            <h3>Trolle, c'esst quoi ?</h3>
+            <p>Trolle est bien plus qu'une simple plateforme de gestion de projets. C'est un outil intuitif conçu pour vous aider à organiser, collaborer et réaliser vos projets de manière efficace et transparente. Que vous soyez un entrepreneur indépendant, une équipe de développement logiciel ou une entreprise en pleine croissance, Trolle offre les fonctionnalités nécessaires pour simplifier la gestion de vos tâches et améliorer la productivité de votre équipe.</p>
+        </section>
+
+        <section id="choice">
+            <h3>Pourquoi choisir Trolle ?</h3>
+            <ul>
+                <li>Organisation sans effort : créez des tableaux pour chaque projet, ajoutez des listes de tâches et glissez-déposez des cartes pour prioriser vos actions. Trolle vous permet de structurer vos projets de manière logique et visuelle.</li>
+                <li>Collaboration en temps réel : invitez vos collègues, partagez des tableaux et travaillez ensemble en temps réel. Les mises à jour sont instantanément synchronisées, ce qui vous permet de rester toujours à jour sur l'avancement du projet.</li>
+                <li>Suivi des tâches simplifié : assignez des tâches, fixez des dates limites et suivez le progrès de chaque carte.</li>
+                <li>Trolle est bien plus qu'un simple outil de gestion de projets. C'est votre allié pour transformer vos idées en réalisations concrètes, en toute simplicité. <a href="signup.html">Inscrivez-vous</a> dès maintenant et découvrez comment Trolle peut vous aider à atteindre vos objectifs, plus rapidement et plus efficacement que jamais.</li>
+            </ul>
+        </section>
+    </main>
+
 
     <script src="index.js"></script>
 </body>
