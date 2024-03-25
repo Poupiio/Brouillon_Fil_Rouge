@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background: rgb(99,136,137);
+    background: linear-gradient(74deg, rgba(99,136,137,1) 17%, rgba(255,254,196,1) 70%);
+
+    background-image: linear-gradient(to right top, #9b9ee3, #cb9ad8, #ec9bc3, #fda2ac, #ffaf98);
+
+    background-image: linear-gradient(to left, #ffc75f, #ffba61, #ffad65, #ffa16b, #ff9671);
+
+    background-image: radial-gradient(circle, #b6f9c9, #7cccb9, #559fa1, #3e7280, #2f4858);
+
+    background: rgb(182,249,201);
+    background: linear-gradient(74deg, rgba(182,249,201,1) 17%, rgba(255,254,196,1) 70%);
+} */
+
+body {
+    /* background-image: radial-gradient(circle, #b6f9c9, #7cccb9, #559fa1, #3e7280, #2f4858); */
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.formTest {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 50%;
+
+    background: rgba(255,255,255,0.15);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formTest h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.formTest input {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 8px;
+    font-size: 1.1rem;
+}
+
+.formTest input {
+    width: 180px;
+}
+
+.formTest input::placeholder {
+    color: #ADB0E5;
+}
+
+.formTest .forgottenPwd {
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    color:white;
+
+    position: relative;
+}
+
+.formTest .forgottenPwd:hover {
+    text-decoration: underline;
+}
+
+.mySubmit {
+    background: #9a83acc6;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    margin: 30px auto 0;
+}
+
+.mySubmit:hover {
+    transform: scale(1.2);
+}
