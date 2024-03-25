@@ -24,11 +24,50 @@ body {
     background-position: center;
     background-size: cover;
     
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
     min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+    background: rgba(173, 176, 229, 0.19);
+    backdrop-filter: blur(6.6px);
+    box-shadow: 0px 0px 20px 6px rgb(185, 240, 245);
+
+    margin-bottom: 40px;
+}
+
+nav img {
+    margin-left: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+
+    list-style: none;
+}
+
+.main-menu a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 0 40px;
+    font-weight: 600;
+    font-size: 1.3rem;
 }
 
 .signIn, .signUp {

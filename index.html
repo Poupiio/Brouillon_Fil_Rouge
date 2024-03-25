@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BROUILLON</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+    <header>
+        <nav>
+            <img src="images/test2.png" class="main-logo" alt="Logo Trolle">
+            <ul class="main-menu">
+                <li>
+                    <a href="#">Connexion</a>
+                </li>
+                <li>
+                    <a href="#">Inscripton</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <form class="signIn">
         <h1>Connexion</h1>
@@ -29,10 +45,10 @@
             <input type="name" name="name" id="name" placeholder="Nom" required>
         </div>
         <div class="email">
-            <input type="email" name="email" id="email" placeholder="Email" required>
+            <input type="user-email" name="user-email" id="user-email" placeholder="Email" required>
         </div>
         <div class="password">
-            <input type="password" name="password" id="password" placeholder="Mot de passe" required>
+            <input type="user-password" name="user-password" id="user-password" placeholder="Mot de passe" required>
         </div>
         <div class="submit">
             <button class="mySubmit">Inscription</button>
@@ -42,4 +58,5 @@
 
     <script src="index.js"></script>
 </body>
+
 </html>
