@@ -31,7 +31,7 @@ body {
     min-height: 100vh;
 }
 
-.formTest {
+.signIn, .signUp {
     width: 430px;
     height: 430px;
     margin: 0 auto;
@@ -41,6 +41,7 @@ body {
     background: rgba(173, 176, 229, 0.19);
     backdrop-filter: blur(6.6px);
     box-shadow: 0px 0px 20px 6px rgb(185, 240, 245);
+    /* box-shadow: 0px 0px 20px 6px #fdb3d8b3; */
 
     color: white;
 
@@ -50,12 +51,12 @@ body {
     align-items: center;
 }
 
-.formTest h1 {
+.signIn h1, .signUp h1 {
     margin-bottom: 20px;
     font-size: 2rem;
 }
 
-.formTest input {
+.signIn input, .signUp input {
     display: block;
     margin: 10px auto;
     border: none;
@@ -63,30 +64,29 @@ body {
     outline: none;
     padding: 8px;
     font-size: 1.1rem;
-}
-
-.formTest input {
     width: 180px;
 }
 
-.formTest input::placeholder {
+.signIn input::placeholder, .signUp input::placeholder {
     color: #ADB0E5;
 }
 
-.formTest .forgottenPwd {
+.signIn a, .signUp a {
     text-decoration: none;
-    text-align: right;
+    color: white;
     display: block;
-    color:white;
-
-    position: relative;
+    text-align: right;
 }
 
-.formTest .forgottenPwd:hover {
+.signIn a:hover, .signUp a:hvoer {
     text-decoration: underline;
 }
 
-.mySubmit {
+.signIn .forgottenPwd {
+    position: relative;
+}
+
+.signIn .mySubmit, .signUp .mySubmit {
     background: #9a83acc6;
     border: none;
     padding: 0.5rem 1.5rem;
@@ -97,9 +97,19 @@ body {
     font-weight: 600;
     transition: 0.3s ease-in-out;
     display: flex;
-    margin: 30px auto 0;
+    margin: 30px auto 10px;
+    cursor: pointer;
 }
 
-.mySubmit:hover {
+.signIn .mySubmit:hover, .signUp .mySubmit:hover {
     transform: scale(1.1);
+}
+
+.signUp {
+    width: 500px;
+    height: 500px;
+}
+
+.signUp {
+    display: none;
 }
