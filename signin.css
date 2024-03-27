@@ -4,9 +4,13 @@ body {
     background-size: cover;
 }
 
+h1 {
+    letter-spacing: 0;
+}
+
 .signIn {
-    width: 430px;
-    height: 430px;
+    width: 500px;
+    height: 500px;
     margin: 0 auto;
     padding: 15px;
     border-radius: 50%;
